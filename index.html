@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdjs icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css file link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- aos link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container nav-container ">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Marketplace</a>
+                    </li>
+                    <li class="nav-item nav-item-2 mx-3">
+                        <a class="nav-link" href="#">Rankings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Connect a wallet</a>
+                    </li>
+                    <li class="nav-item nav-item-4 signup ms-3">
+                        <a class="nav-link signup_btn" href="#"><i class="fa-regular fa-user me-3"></i> Sign Up</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- banner start -->
+        <section class="banner py-5 w-100">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="banner-title">Discover <br> digital art & Collect NFTs</p>
+                    <p class="banner-text my-4">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+                    <div class="col-12 col-md-6 d-md-none">
+                        <div class="card " style="width: 100%; ">
+                            <img src="./images/imgcard.jpg"  class="card-img-top" alt="card img">
+                            <div class="card-body">
+                                <p class="card-text">Space Walking</p>
+                                <img src="./images/Avatar Placeholder.png" alt="">
+                                <span>Animakid</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="banner-btn my-4">Get Started</button>
+                    <div class="row count">
+                        <div class="col-4">
+                            <p class="count_title">240k+ </p>
+                            <p class=count_text>Total Sale</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="count_title">100k+</p>
+                            <p class=count_text>Auctions</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="count_title">240k+</p>
+                            <p class=count_text>Artists</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-none d-md-block">
+                    <div class="card " style="width: 100%; ">
+                        <div class="card_img">
+                            <img src="./images/imgcard.jpg"  class="card-img-top" alt="card img">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Space Walking</p>
+                            <img src="./images/Avatar Placeholder.png" alt="">
+                            <span>Animakid</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- treding start -->
+        <section class="treding py-5 h-auto w-100">
+            <div class="treding-header">
+                <p class="title">Trending Collection</p>
+                <p class="text">Checkout our weekly updated trending collection.</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="treding-card">
+                        <img class="treding-card-image w-100" src="./images/Primary Photo Placeholder.png" alt="">
+                        <div class="row my-3">
+                            <div class="col-4">
+                                <img class="w-100" src="./images/Secondary Photo Placeholder.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="w-100" src="./images/Secondary Photo Placeholder (1).png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <div  class="treding-cound h-100 w-100">1025+</div>
+                            </div>
+                        </div>
+                        <div class="treding-bottom-text"><p>DSGN Animals</p></div>
+                        <img src="./images/Avatar Placeholder (1).png" alt="">
+                        <span >MrFox</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
+                    <div class="treding-card">
+                        <img class="treding-card-image w-100" src="./images/Primary Photo Placeholder (1).png" alt="">
+                        <div class="row my-3">
+                            <div class="col-4">
+                                <img class="w-100" src="./images/Secondary Photo Placeholder.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="w-100" src="./images/Secondary Photo Placeholder (1).png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <div  class="treding-cound h-100 w-100">1025+</div>
+                            </div>
+                        </div>
+                        <div class="treding-bottom-text"><p>DSGN Animals</p></div>
+                        <img src="./images/Avatar Placeholder (1).png" alt="">
+                        <span >MrFox</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 d-none d-xl-block">
+                    <div class="treding-card">  
+                        <img class="treding-card-image w-100" src="./images/Primary Photo Placeholder (2).png" alt="">
+                        <div class="row my-3">
+                            <div class="col-4">
+                                <img class="w-100" src="./images/Secondary Photo Placeholder.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="w-100" src="./images/Secondary Photo Placeholder (1).png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <div  class="treding-cound h-100 w-100">1025+</div>
+                            </div>
+                        </div>
+                        <div class="treding-bottom-text"><p>DSGN Animals</p></div>
+                        <img src="./images/Avatar Placeholder (1).png" alt="">
+                        <span >MrFox</span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- top Creators start -->
+        <section class="top_creators h-auto py-5">
+            <div class="topCreators_header d-flex justify-content-between">
+                <div class="h-100">
+                    <p class="title">Top creators</p>
+                    <p class="text">Checkout Top Rated Creators on the NFT Marketplace</p>
+                </div>
+                <button class="creators_btn align-self-end"><i class="fa-solid fa-rocket"></i> View Rankings</button>
+            </div>
+            <div class="row mt-4 gy-2 g-md-3">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="creators_card d-flex d-lg-block  p-3">
+                        <div class="card_top_left">
+                            1
+                        </div>
+                        <img src="./images/card_create.png" alt="">
+                        <div class="">
+                            <p class="creators_card_title">Keepitreal</p>
+                            <p class="creators_card_text">Total Sales: <span class="creators_card_span">34.53 ETH</span></p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+
+        <!-- Browse Categories -->
+        <section class="categories w-100 h-auto py-5">
+            <p class="title">Browse Categories</p>
+            <div class="row mt-4 g-3">
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (1).png" alt="">
+                        </div>
+                        <p class="text">Art</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (2).png" alt="">
+                        </div>
+                        <p class="text">Collectibles</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (6).png" alt="">
+                        </div>
+                        <p class="text">Music</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (7).png" alt="">
+                        </div>
+                        <p class="text">Photography</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (3).png" alt="">
+                        </div>
+                        <p class="text">Video</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (8).png" alt="">
+                        </div>
+                        <p class="text">Utility</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (9).png" alt="">
+                        </div>
+                        <p class="text">Utility</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 ">
+                    <div class="categories_card">
+                        <div class="categories_card_img">
+                            <i class="fa-solid fa-music"></i>
+                            <img src="./images/Image Placeholder (4).png" alt="">
+                        </div>
+                        <p class="text">Virtual Worlds</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Discover More NFTs start -->
+        <section class="discover py-5">
+            <div class="topCreators_header d-flex justify-content-between">
+                <div class="h-100">
+                    <p class="title">Discover More NFTs</p>
+                    <p class="text">Explore new trending NFTs</p>
+                </div>
+                <button class="creators_btn align-self-end"><i class="fa-solid fa-rocket"></i> See All</button>
+            </div>
+            <div class="row mt-3 g-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="section3-cards-background" data-aos="fade-up" data-aos-anchor-placement="center-center">
+                        <img class="section3-img" src="./images/Image Placeholder (10).png" alt="" />
+                        <div class="p-4 pb-1">
+                            <p class="h5">Distant Galaxy</p>
+                            <div class="d-flex" style="height: 27px">
+                                <img src="./images/Avatar Placeholder (4).png" alt="" />
+                                <p class="ms-2">MoonDancer</p>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4">
+                                <div>
+                                <p class="m-0 section4-pricetext">Price</p>
+                                <p>1.63 ETH</p>
+                                
+                                </div>
+                                <div>
+                                <p class="m-0 section4-pricetext">Highest Bid</p>
+                                <p>0.33 wETH</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="section3-cards-background">
+                        <img class="section3-img" src="./images/Image Placeholder (11).png" alt="" />
+                        <div class="p-4 pb-1">
+                            <p class="h5">Distant Galaxy</p>
+                            <div class="d-flex" style="height: 27px">
+                                <img src="./images/Avatar Placeholder (5).png" alt="" />
+                                <p class="ms-2">MoonDancer</p>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4">
+                                <div>
+                                    <p class="m-0 section4-pricetext">Price</p>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div>
+                                    <p class="m-0 section4-pricetext">Highest Bid</p>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div class="col-12 col-lg-4 d-md-none d-lg-block d-sm-block">
+                    <div class="section3-cards-background">
+                        <img class="section3-img" src="./images/Image Placeholder (12).png" alt="" />
+                        <div class="p-4 pb-1">
+                            <p class="h5">Distant Galaxy</p>
+                            <div class="d-flex" style="height: 27px">
+                                <img src="./images/Avatar Placeholder (6).png" alt="" />
+                                <p class="ms-2">MoonDancer</p>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4">
+                                <div>
+                                    <p class="m-0 section4-pricetext">Price</p>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div>
+                                    <p class="m-0 section4-pricetext">Highest Bid</p>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Magic bg start-->
+    <div class="container-fluid magic d-flex align-items-end">
+        <div class="container magic_container">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md-7 col-xl-8">
+                    <div class="magic_left">
+                        <div class="avatar_btn"><img src="./images/Avatar Placeholder (7).png" alt=""> <span>Shroomie</span></div>
+                        <p class="magic_text">Magic Mashrooms</p>
+                        <div class="see"><i class="fa-solid fa-eye"></i> <span>See NFT</span></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-xl-4">
+                    <div class="magic_right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
